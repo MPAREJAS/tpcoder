@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos.css/estilos.css">
     <title>Productos</title>
-    <link rel="stylesheet" href="estilos css/estilos.css">
+   
 </head>
 <!--inicio de body-->
-<body>
+<body class="body">
     <h1>Bodys,Pantalones,Camperas.</h1>
     <!--inicio de menu-->
-    <header>
+    <header class="contenedor_padre" id="Menu">
         <nav class="header__navbar"> 
             <ul class="header__navbar__principal">
                 <li ><a href="../index.html">Inicio</a></li>
@@ -21,12 +22,25 @@
                 <li ><a href="../paginas/sucursales.html">Sucursales</a></li>
             </ul>
         </nav>
+    </header>
+    <main class="menu">
         <div>
             <a href="../index.html"><img src="../imagenes/logo.jpg" alt=""></a>
-        </div>
-      
-        <p >Tenemos los modelos mas lindos de ropa para tu bebe de 1 a 24 meses.No te vas a arrepentir</p>
-    </header>
+            <p class="texto">Tenemos los modelos mas lindos de ropa para tu bebe de 1 a 24 meses.No te vas a arrepentir</p>   
+        </div> 
+
+        <section id ="imagenes" class="imagenes">
+
+          <picture  class="imagenesropa1">
+         <img src="../imagenes/3145b595-05f1-4c48-98f3-31173b91f3c5.jpg" alt="">
+          </picture>
+         
+          <picture class="imagenesropa2">
+            <img src="../imagenes/ff356d20-3a6d-4583-9fec-da871b2969ed.jpg" alt="">
+          </picture >
+
+        </section>
+    </main>
     <!--fin de menu-->  
     <!--inicio de footer-->
     <footer class="footer">Gracias por Elegirnos</footer>
