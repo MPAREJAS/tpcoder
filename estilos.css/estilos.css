@@ -139,10 +139,11 @@ img{
     height: 200px;
 }
 
-@media screen and (max-width 879px){
+@media screen and (max-width ){
     .imagenes{flex-direction: column;}
 }
 
-@media screen and (max-width 700px){
+
+@media screen and (max-width ){
     .contenedor_padre{flex-direction: column;}
 }
