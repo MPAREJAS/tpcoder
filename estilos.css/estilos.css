@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.carousel-inner img{
+    margin:auto;
+}
 /*----------BODY---------*/
 .body{background-color: beige;
     color: aqua;
@@ -133,17 +137,16 @@ img{
 
 }
 
-img{
+/* img{
 
     width: 200px;;
     height: 200px;
-}
-
-@media screen and (max-width ){
-    .imagenes{flex-direction: column;}
-}
+} */
 
 
-@media screen and (max-width ){
-    .contenedor_padre{flex-direction: column;}
-}
+@media (max-width 320px) and (max-width 576px) {
+    }
+
+
+@media (max-width 577px) and (max-width 991px) {
+    }
