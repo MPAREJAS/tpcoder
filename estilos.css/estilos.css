@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-.carousel-inner img{
-    margin:auto;
-}
+
 /*----------BODY---------*/
 .body{background-color: beige;
     color: aqua;
@@ -57,17 +55,17 @@ text-align: center;
 /*------------IMAGEN------------*/
 .imagen{
     background-image: url(../imagenes/0fa69c01ef7f2e2ab3fbc4825871a15c--future-baby-bb.jpg);
-    width: 40%;
+    width: 50px;
     background-color: coral;
     background-size: cover;
     background-position: center;
-    height: 40%;
+    height: 50px;
     color:grey;
 }
 /*------------TEXTO-------------*/
 .texto{
     color:black;
-    font-size:1rem;
+    font-size: 20px;
     text-align:center;
     
 }
@@ -80,6 +78,7 @@ text-align: center;
     position:absolute;
     right: 0;
     bottom: 0;
+    padding: 40px;
 }
 
 
@@ -137,16 +136,59 @@ img{
 
 }
 
-/* img{
+.carousel-inner img {
+    margin:auto;
+}
 
-    width: 200px;;
-    height: 200px;
-} */
+.animacion{
+    color: aqua;
+    font: size 40px;
+    animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-duration:8s;
+    animation-delay: 1 s;
 
+}
 
-@media (max-width 320px) and (max-width 576px) {
-    }
+@keyframes efecto {
 
+0%{
+    color: rgb(255, 246, 240);
 
-@media (max-width 577px) and (max-width 991px) {
-    }
+}
+
+25%{
+    color: rgb(0, 102, 255);
+}
+
+50%{
+    color:rgb(0, 100, 43);
+}
+
+75%{
+    color:rgb(255, 0, 255);
+}
+
+100% {
+    color: aqua;
+}
+
+@media screen {
+    
+ (max-width: 480px) {
+
+  nav {
+      position: fixed;
+      top:0;
+      right: -250px;
+      width: 250px;
+      height:100vh;
+      padding: 20px;
+      z-index: 1;
+      transition: all 300ms;
+  }
+
+  }
+}
+
+ 
