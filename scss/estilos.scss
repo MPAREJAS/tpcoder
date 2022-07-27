@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*----------BODY---------*/
+.body{background-color: beige;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+
+/*----------CONTENEDOR PADRE---------*/
+.contenedor_padre {
+    background-color: rgb(114, 236, 236);
+    color:rgb(183, 85, 175);
+    width: 100%;
+    height: 20%;
+    border:solid 2px;
+    padding: 15px;
+    
+  
+   }
+
+   
+/*------------MENU-------------*/
+nav{
+    text-decoration-line: underline;
+    
+    &:nav-link {
+        color: violet;
+    }
+}
+/*------------TEXTO-------------*/
+.texto{
+    color:black;
+    font-size: 20px;
+    text-align:center;
+    
+}
+
+/*------------FOOTER-------------*/
+.footer{
+    color: black;
+    text-align:center;
+    position:absolute;
+    bottom:0 ;
+    width:100%;
+    margin: bottom 20px;
+    padding-bottom: 1px;
+}
+
+img{
+
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    
+}
+
+
+
+.carousel-inner img {
+    margin:auto;
+}
+
+
+
+.animacion{
+    color: aqua;
+    font: size 40px;
+    animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-duration:8s;
+    animation-delay: 1 s;
+
+}
+
+@keyframes efecto {
+
+0%{
+    color: rgb(255, 246, 240);
+
+}
+
+25%{
+    color: rgb(0, 102, 255);
+}
+
+50%{
+    color:rgb(0, 100, 43);
+}
+
+75%{
+    color:rgb(255, 0, 255);
+}
+
+100% {
+    color: aqua;
+}
+}
