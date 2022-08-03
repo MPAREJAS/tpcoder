@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 
+@import "_variables";
+@import "_footer";
 
 /*----------BODY---------*/
-.body{background-color: beige;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.body{background-color: $primaryColor;
+font-family: $primaryFont;
 text-align: center;
 }
 
@@ -40,26 +42,14 @@ nav{
     
 }
 
-/*------------FOOTER-------------*/
-.footer{
-    color: black;
-    text-align:center;
-    position:absolute;
-    bottom:0 ;
-    width:100%;
-    margin: bottom 20px;
-    padding-bottom: 1px;
-}
 
-img{
+main img{
 
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     padding: 10px;
     
 }
-
-
 
 .carousel-inner img {
     margin:auto;

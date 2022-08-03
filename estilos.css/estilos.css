@@ -3,10 +3,53 @@
   padding: 0;
   box-sizing: border-box; }
 
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #3b3b3b;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0; }
+  .footer div {
+    width: 50%; }
+    .footer div > h2 {
+      padding: 0.2rem;
+      font-size: 100%;
+      text-align: center; }
+  .footer h2 {
+    font-family: 'Reem Kufi', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #cbcbcb;
+    padding-top: 2%; }
+  .footer li {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .footer li > h2 {
+      font-size: 130%;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: larger; }
+    .footer li:hover ul {
+      visibility: visible; }
+  .footer ul ul {
+    visibility: hidden;
+    position: relative;
+    right: 2rem; }
+    .footer ul ul li {
+      border-radius: 100%;
+      background-color: white;
+      float: left;
+      margin: auto 1rem auto 1rem; }
+      .footer ul ul li a {
+        margin: 0.5rem; }
+
 /*----------BODY---------*/
 .body {
   background-color: beige;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center; }
 
 /*----------CONTENEDOR PADRE---------*/
@@ -30,19 +73,9 @@ nav {
   font-size: 20px;
   text-align: center; }
 
-/*------------FOOTER-------------*/
-.footer {
-  color: black;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin: bottom 20px;
-  padding-bottom: 1px; }
-
-img {
-  width: 220px;
-  height: 220px;
+main img {
+  width: 250px;
+  height: 250px;
   padding: 10px; }
 
 .carousel-inner img {
