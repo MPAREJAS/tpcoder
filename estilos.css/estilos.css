@@ -47,7 +47,7 @@
         margin: 0.5rem; }
 
 /*----------BODY---------*/
-.body {
+.body, .texto {
   background-color: beige;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center; }
@@ -100,3 +100,6 @@ main img {
     color: magenta; }
   100% {
     color: aqua; } }
+
+.texto {
+  align-items: center; }

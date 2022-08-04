@@ -39,7 +39,7 @@ nav{
     color:black;
     font-size: 20px;
     text-align:center;
-    
+    @extend .body;
 }
 
 
@@ -89,4 +89,10 @@ main img{
 100% {
     color: aqua;
 }
+}
+@mixin texto ($align,){
+    align-items: $align;
+}
+.texto{
+    @include texto(center);
 }
